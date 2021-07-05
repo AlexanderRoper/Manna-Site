@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.containter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: #fffdf5;
+  min-height: 100vh;
+}
+
+.neumorphism-1 {
+  height: 350px;
+  width: 750px;
+  background-color: #e6e4dd;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #e6e4dd, #ffffff);
+  box-shadow: 6px 6px 12px #d9d7d0, -6px -6px 12px #ffffff;
+}
+
+.neumorphism-1 h1 {
+  font-family: "EB Garamond", serif;
+  font-size: 850%;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
