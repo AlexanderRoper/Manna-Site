@@ -4,8 +4,11 @@
 }
 
 @font-face {
-  font-family: "myFirstFont";
-  src: url("./assets/HKGrotesk-Medium.otf") format("otf");
+  font-family: "hk_groteskmedium";
+  src: url("hkgrotesk-medium-webfont.woff2") format("woff2"),
+    url("hkgrotesk-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 .containter {
   display: flex;
@@ -14,6 +17,12 @@
   padding: 30px;
   background: #252837;
   min-height: 100vh;
+}
+
+header {
+  font-family: "hk_groteskmedium";
+  font-size: 300;
+  color: white;
 }
 
 .neumorphism-1 {
@@ -25,8 +34,8 @@
 }
 
 .neumorphism-1 h1 {
-  font-family: adobe-garamond-pro, serif;
-  font-weight: 100;
+  font-family: "EB Garamond", sans-serif;
+  font-weight: 800;
   font-style: normal;
   font-size: 600%;
   color: #ffffff;
@@ -35,9 +44,8 @@
   top: 50%;
 }
 
-.neumorphism-1 h2 {
-  font-family: "myFirstFont", "Times New Roman", "Helvetica Neue", sans-serif;
-  font-weight: 400;
+h2 {
+  font-family: "hk_groteskmedium";
   font-size: 200;
   color: #ffffff;
   text-align: center;
