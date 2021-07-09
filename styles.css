@@ -19,12 +19,6 @@
   min-height: 100vh;
 }
 
-header {
-  font-family: "hk_groteskmedium";
-  font-size: 300;
-  color: white;
-}
-
 .neumorphism-1 {
   height: 10%;
   width: 100%;
