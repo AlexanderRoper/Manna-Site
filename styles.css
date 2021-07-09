@@ -3,29 +3,45 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "myFirstFont";
+  src: url("./assets/HKGrotesk-Medium.otf") format("otf");
+}
 .containter {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px;
-  background: #fffdf5;
+  background: #252837;
   min-height: 100vh;
 }
 
 .neumorphism-1 {
-  height: 350px;
-  width: 750px;
-  background-color: #e6e4dd;
-  border-radius: 20px;
-  background: linear-gradient(145deg, #e6e4dd, #ffffff);
-  box-shadow: 6px 6px 12px #d9d7d0, -6px -6px 12px #ffffff;
+  height: 10%;
+  width: 100%;
+  border-radius: 25px;
+  background: linear-gradient(145deg, #212432, #282b3b);
+  box-shadow: 20px 20px 60px #1f222f, -20px -20px 60px #2b2e3f;
 }
 
 .neumorphism-1 h1 {
-  font-family: "EB Garamond", serif;
-  font-size: 850%;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 600%;
+  color: #ffffff;
   text-align: center;
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+}
+
+.neumorphism-1 h2 {
+  font-family: "myFirstFont", "Times New Roman", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 200;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  margin-bottom: 12px;
 }

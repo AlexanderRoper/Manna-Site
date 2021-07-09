@@ -1,2 +1,3 @@
 # Manna-Site
-Coming soon...
+
+Checkout it out -> Manna.io
