@@ -1,3 +1,3 @@
 # Manna-Site
 
-Checkout it out -> https://www.manna.io
+Check it out -> https://www.manna.io
