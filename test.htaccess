@@ -2,3 +2,7 @@ RewriteEngine On
 RewriteCond %{terms.html} !-f
 RewriteCond %{terms.html} !-d
 RewriteRule ^(.*)\.html$ /$1 [L,R=301] 
+
+RewriteCond %{privacy.html} !-f
+RewriteCond %{privacy.html} !-d
+RewriteRule ^(.*)\.html$ /$1 [L,R=301] 
